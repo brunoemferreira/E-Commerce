@@ -5,14 +5,17 @@
 # E-Commerce
 E-Commerce utilizando ReactJS, NodeJS e Mongo.
 
-# Sobre o Projeto 
+# 🚀 Sobre o Projeto 
 
 Projeto de E-Commerce
 
-## Tecnologias e Bibliotecas
+> ## 🏭 Módulo BackEnd ( API )
 
-> ### API
+### Sobre o Módulo - API 
 
+Descrição sobre o que é e sobre o que faz e a importância do Módulo. 
+
+### Tecnologias e Bibliotecas Utilizadas
 * [NodeJs]()
   * [Express]()
   * [Express-jwt]()
@@ -33,5 +36,35 @@ Projeto de E-Commerce
   * [NodeMailer]()
   * [Request]()
   * [XML2JS]()
-  
-> ### Web
+
+___
+
+> ## 🌎 Módulo FrontEnd ( DashBoard )
+
+### Sobre o Módulo - DashBoard 
+Descrição sobre o que é e sobre o que faz e a importância do Módulo
+
+
+### Tecnologias e Bibliotecas Utilizadas
+
+* []()
+
+___
+
+> ## 🌎 Módulo FrontEnd ( Loja Virtual )
+
+### Sobre o Módulo - Loja Virtual 
+Descrição sobre o que é e sobre o que faz e a importância do Módulo
+
+### Tecnologias e Bibliotecas Utilizadas
+
+* []()
+
+
+___
+
+
+
+
+
+
