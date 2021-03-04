@@ -36,6 +36,15 @@ Descrição sobre o que é e sobre o que faz e a importância do Módulo.
   * [NodeMailer]()
   * [Request]()
   * [XML2JS]()
+  * [Nodemon]()
+
+### Rodando O Módulo
+```bash
+# Iniciando o Módulo em Modo Desenvolvimento
+$ npm run dev
+  ou 
+$ yarn run dev
+```
 
 ___
 
@@ -49,6 +58,13 @@ Descrição sobre o que é e sobre o que faz e a importância do Módulo
 
 * []()
 
+### Rodando O Módulo
+```bash
+# Iniciando o Módulo em Modo Desenvolvimento
+$ 
+  ou 
+$ 
+```
 ___
 
 > ## 🌎 Módulo FrontEnd ( Loja Virtual )
@@ -60,6 +76,13 @@ Descrição sobre o que é e sobre o que faz e a importância do Módulo
 
 * []()
 
+### Rodando O Módulo
+```bash
+# Iniciando o Módulo em Modo Desenvolvimento
+$ 
+  ou 
+$ 
+```
 
 ___
 
