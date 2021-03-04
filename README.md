@@ -38,9 +38,7 @@ Descrição sobre o que é e sobre o que faz e a importância do Módulo.
   * [XML2JS]()
   * [Nodemon]()
 
-### Endpoints da API
-
-<h4 style="font-weight:bold"> 🔚 End Points da API</h4> 
+<h3 style="font-weight:bold"> 🔚 End Points da API</h3> 
 
 > API de Clientes 
 
@@ -57,23 +55,27 @@ Descrição sobre o que é e sobre o que faz e a importância do Módulo.
 | GET    | /usuarios/senha-recuperada |                 | http://localhost:3000/usuarios/senha-recuperada | None       |
 | POST   | /usuarios/senha-recuperada |                 | http://localhost:3000/usuarios/senha-recuperada | None       |
 
+</br>
+
+| Verb   | Route                      | Description |
+| ------ | -------------------------- | ----------- |
+| GET    | /usuarios/                 |             |
+| GET    | /usuarios/:id              |             |
+| POST   | /usuarios/login            |             |
+| POST   | /usuarios/registrar        |             |
+| PUT    | /usuarios/                 |             |
+| DELETE | /usuarios/                 |             |
+| GET    | /usuarios/recuperar-senha  |             |
+| POST   | /usuarios/recuperar-senha  |             |
+| GET    | /usuarios/senha-recuperada |             |
+| POST   | /usuarios/senha-recuperada |             |
+
+
+</br>
+
 > API de  
 
 
-
-
-
-
-
-router.post("/login", usuarioController.login);
-router.post("/registrar", usuarioController.store);
-router.put("/", auth.required, usuarioController.update);
-router.delete("/", auth.required, usuarioController.delete);
-
-router.get("/recuperar-senha", usuarioController.showRecovery);
-router.post("/recuperar-senha", usuarioController.createRecovery);
-router.get("/senha-recuperada", usuarioController.showCompleteRecovery);
-router.post("/senha-recuperada", usuarioController.completeRecovery);
 
 
 
