@@ -1,3 +1,7 @@
+<div align="center">
+   <img  src="./assets/banner.png" alt="Banner"/>
+</div>
+
 # E-Commerce
 E-Commerce utilizando ReactJS, NodeJS e Mongo.
 
