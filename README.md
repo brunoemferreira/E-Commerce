@@ -78,39 +78,6 @@ Descrição sobre o que é e sobre o que faz e a importância do Módulo.
 
 
 
-
-| Route          | Response Formats | Resource URL                   | Parameters |
-| -------------- | ---------------- | ------------------------------ | ---------- |
-| GET  /clientes | JSON             | http://localhost:8080/clientes | None       |
-
-</br>
-
-| Route          | Description                            |
-| -------------- | -------------------------------------- |
-| GET  /clientes | Retorna uma lista de todos os Clientes |
-
-</br>
-<h3 style="font-weight:bold">Ordens de Serviço</h3>
-
-| Route        | Response Formats | Resource URL                                | Parameters |
-| ------------ | ---------------- | ------------------------------------------- | ---------- |
-| GET  /orders | JSON             | http://localhost:8080/orders                | None       |
-| POST /orders | JSON             | http://localhost:8080/orders                | JSON Body  |
-| PUT  /orders | JSON             | http://localhost:8080/orders/{id}/delivered | Id Order   |
-
-</br>
-
-| Route        | Description                                                                                 |
-| ------------ | ------------------------------------------------------------------------------------------- |
-| GET  /orders | Retorna todos os Pedidos de status 'PENDING' juntamente com os produtos em ordem Ascendente |
-| POST /orders | Efetua a gravação do Pedido no Banco de Dados juntamente com os Produtos selecionados       |
-| PUT  /orders | Atualiza o status do Pedido para 'DELIVERED'                                                |
-
-</br>
-
-
-
-
 ### Rodando O Módulo
 ```bash
 # Iniciando o Módulo em Modo Desenvolvimento

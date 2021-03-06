@@ -1,5 +1,6 @@
 {
   "parcial-vazio": "não pode ficar vazio(a)!",
   "parcial-invalido": "é inválido",
-  "parcial-utilizado": "já está sendo utilizado(a)"
+  "parcial-utilizado": "já está sendo utilizado(a)",
+  "user-unregistered": "Usuário não Registrado!"
 }
