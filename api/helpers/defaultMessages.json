@@ -3,5 +3,13 @@
   "parcial-invalido": "é inválido",
   "parcial-utilizado": "já está sendo utilizado(a)",
   "user-unregistered": "Usuário não Registrado!",
-  "invalid-password": "Senha inválida"
+  "user-undentified": "Usuário não Identificado!",
+  "user-email-not-exist": "Não existe usuário com este email!",
+  "invalid-password": "Senha inválida",
+  "fill-in-new-password": "Preencha novamente com sua nova Senha!",
+  "password-change-sucefully": "Senha alterada com sucesso. Tente novamente fazer o login.",
+  "fill-in-all-registration-fields": "Preencha todos os campos de cadastro!",
+  "fill-in-email": "Preencha com o seu email!",
+  "undentified-token": "Token não identificado!",
+  "expired-token": "Token Expirado. Tente novamente!"
 }
