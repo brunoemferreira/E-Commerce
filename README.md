@@ -73,7 +73,113 @@ Descrição sobre o que é e sobre o que faz e a importância do Módulo.
 
 </br>
 
-> API de  
+> API de Loja 
+
+| Verb | Route | Response Format | Resource URL | Parameters |
+| ---- | ----- | --------------- | ------------ | ---------- |
+|      |       |                 |              |            |
+
+</br>
+
+| Verb | Route | Description |
+| ---- | ----- | ----------- |
+|      |       |             |
+
+> API de Clientes 
+
+| Verb | Route | Response Format | Resource URL | Parameters |
+| ---- | ----- | --------------- | ------------ | ---------- |
+|      |       |                 |              |            |
+
+</br>
+
+| Verb | Route | Description |
+| ---- | ----- | ----------- |
+|      |       |             |
+
+> API de Categorias 
+
+| Verb | Route | Response Format | Resource URL | Parameters |
+| ---- | ----- | --------------- | ------------ | ---------- |
+|      |       |                 |              |            |
+
+</br>
+
+| Verb | Route | Description |
+| ---- | ----- | ----------- |
+|      |       |             |
+
+> API de Produtos 
+
+| Verb | Route | Response Format | Resource URL | Parameters |
+| ---- | ----- | --------------- | ------------ | ---------- |
+|      |       |                 |              |            |
+
+</br>
+
+| Verb | Route | Description |
+| ---- | ----- | ----------- |
+|      |       |             |
+
+> API de Avaliações 
+
+| Verb | Route | Response Format | Resource URL | Parameters |
+| ---- | ----- | --------------- | ------------ | ---------- |
+|      |       |                 |              |            |
+
+</br>
+
+| Verb | Route | Description |
+| ---- | ----- | ----------- |
+|      |       |             |
+
+> API de Variações 
+
+| Verb | Route | Response Format | Resource URL | Parameters |
+| ---- | ----- | --------------- | ------------ | ---------- |
+|      |       |                 |              |            |
+
+</br>
+
+| Verb | Route | Description |
+| ---- | ----- | ----------- |
+|      |       |             |
+
+> API de Pedidos
+
+| Verb | Route | Response Format | Resource URL | Parameters |
+| ---- | ----- | --------------- | ------------ | ---------- |
+|      |       |                 |              |            |
+
+</br>
+
+| Verb | Route | Description |
+| ---- | ----- | ----------- |
+|      |       |             |
+
+> API de Entrega 
+
+| Verb | Route | Response Format | Resource URL | Parameters |
+| ---- | ----- | --------------- | ------------ | ---------- |
+|      |       |                 |              |            |
+
+</br>
+
+| Verb | Route | Description |
+| ---- | ----- | ----------- |
+|      |       |             |
+
+> API de Pagamentos 
+
+| Verb | Route | Response Format | Resource URL | Parameters |
+| ---- | ----- | --------------- | ------------ | ---------- |
+|      |       |                 |              |            |
+
+</br>
+
+| Verb | Route | Description |
+| ---- | ----- | ----------- |
+|      |       |             |
 
 
 
