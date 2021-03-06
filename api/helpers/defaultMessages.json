@@ -2,5 +2,6 @@
   "parcial-vazio": "não pode ficar vazio(a)!",
   "parcial-invalido": "é inválido",
   "parcial-utilizado": "já está sendo utilizado(a)",
-  "user-unregistered": "Usuário não Registrado!"
+  "user-unregistered": "Usuário não Registrado!",
+  "invalid-password": "Senha inválida"
 }
