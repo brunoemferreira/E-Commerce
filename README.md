@@ -9,6 +9,8 @@ E-Commerce utilizando ReactJS, NodeJS e Mongo.
 
 Projeto de E-Commerce
 
+> ## 🏭 Módulo Banco de Dados ( MongoDB )
+
 > ## 🏭 Módulo BackEnd ( API )
 
 ### Sobre o Módulo - API 
@@ -17,63 +19,62 @@ Descrição sobre o que é e sobre o que faz e a importância do Módulo.
 
 ### Tecnologias e Bibliotecas Utilizadas
 * [NodeJs]()
-  * [Express]()
-  * [Express-jwt]()
-  * [Body Parser]()
-  * [Compression]()
-  * [Cors]()
+  * [Express](https://www.npmjs.com/package/express)
+  * [Express-jwt](https://www.npmjs.com/package/express-jwt)
+  * [Body Parser](https://www.npmjs.com/package/body-parser)
+  * [Compression](https://www.npmjs.com/package/compression)
+  * [Cors](https://www.npmjs.com/package/cors)
   * [Crypto]()
-  * [EJS]()
-  * [Faker]()
-  * [JsonWebToken]()
-  * [Moment]()
-  * [Mongoose]()
-  * [Mongoose Paginate]()
-  * [Mongoose Unique Validator]()
-  * [Morgan]()
-  * [Multer]()
-  * [Node PagSeguro]()
-  * [NodeMailer]()
+  * [EJS](https://www.npmjs.com/package/ejs)
+  * [Faker](https://www.npmjs.com/package/faker)
+  * [JsonWebToken](https://www.npmjs.com/package/jsonwebtoken)
+  * [Moment](https://www.npmjs.com/package/moment)
+  * [Mongoose](https://www.npmjs.com/package/mongoose)
+  * [Mongoose Paginate](https://www.npmjs.com/package/mongoose-paginate)
+  * [Mongoose Unique Validator](https://www.npmjs.com/package/mongoose-unique-validator)
+  * [Morgan](https://www.npmjs.com/package/morgan)
+  * [Multer](https://www.npmjs.com/package/multer)
+  * [Node PagSeguro](https://www.npmjs.com/package/node-pagseguro)
+  * [NodeMailer](https://www.npmjs.com/package/nodemailer)
   * [Request]()
-  * [XML2JS]()
-  * [Nodemon]()
+  * [XML2JS](https://www.npmjs.com/package/xml2js)
+  * [Nodemon](https://nodemon.io/)
 
-<h3 style="font-weight:bold"> 🔚 End Points da API</h3> 
+<h2 style="font-weight:bold"> 🔚 End Points da API</h2> 
 
-> API de Clientes 
+> ### **API de Clientes**
 
-| Verb   | Route                      | Response Format | Resource URL                                    | Parameters |
-| ------ | -------------------------- | --------------- | ----------------------------------------------- | ---------- |
-| GET    | /usuarios/                 |                 | http://localhost:3000/usuarios/                 | None       |
-| GET    | /usuarios/:id              |                 | http://localhost:3000/usuarios/:id              | :id        |
-| POST   | /usuarios/login            |                 | http://localhost:3000/usuarios/login            | None       |
-| POST   | /usuarios/registrar        |                 | http://localhost:3000/usuarios/registrar        | None       |
-| PUT    | /usuarios/                 |                 | http://localhost:3000/usuarios/                 | None       |
-| DELETE | /usuarios/                 |                 | http://localhost:3000/usuarios/                 | None       |
-| GET    | /usuarios/recuperar-senha  |                 | http://localhost:3000/usuarios/recuperar-senha  | None       |
-| POST   | /usuarios/recuperar-senha  |                 | http://localhost:3000/usuarios/recuperar-senha  | None       |
-| GET    | /usuarios/senha-recuperada |                 | http://localhost:3000/usuarios/senha-recuperada | None       |
-| POST   | /usuarios/senha-recuperada |                 | http://localhost:3000/usuarios/senha-recuperada | None       |
-
-</br>
-
-| Verb   | Route                      | Description |
-| ------ | -------------------------- | ----------- |
-| GET    | /usuarios/                 |             |
-| GET    | /usuarios/:id              |             |
-| POST   | /usuarios/login            |             |
-| POST   | /usuarios/registrar        |             |
-| PUT    | /usuarios/                 |             |
-| DELETE | /usuarios/                 |             |
-| GET    | /usuarios/recuperar-senha  |             |
-| POST   | /usuarios/recuperar-senha  |             |
-| GET    | /usuarios/senha-recuperada |             |
-| POST   | /usuarios/senha-recuperada |             |
-
+| Route                                 | Response Format | Resource URL                                    | Parameters |
+| ------------------------------------- | --------------- | ----------------------------------------------- | ---------- |
+| **GET**    /usuarios/                 |                 | http://localhost:3000/usuarios/                 | None       |
+| **GET**    /usuarios/:id              |                 | http://localhost:3000/usuarios/:id              | :id        |
+| **POST**   /usuarios/login            |                 | http://localhost:3000/usuarios/login            | None       |
+| **POST**   /usuarios/registrar        |                 | http://localhost:3000/usuarios/registrar        | None       |
+| **PUT**    /usuarios/                 |                 | http://localhost:3000/usuarios/                 | None       |
+| **DELETE** /usuarios/                 |                 | http://localhost:3000/usuarios/                 | None       |
+| **GET**    /usuarios/recuperar-senha  |                 | http://localhost:3000/usuarios/recuperar-senha  | None       |
+| **POST**   /usuarios/recuperar-senha  |                 | http://localhost:3000/usuarios/recuperar-senha  | None       |
+| **GET**    /usuarios/senha-recuperada |                 | http://localhost:3000/usuarios/senha-recuperada | None       |
+| **POST**   /usuarios/senha-recuperada |                 | http://localhost:3000/usuarios/senha-recuperada | None       |
 
 </br>
 
-> API de Loja 
+| Route                                  | Description |
+| -------------------------------------- | ----------- |
+| **GET**     /usuarios/                 |             |
+| **GET**     /usuarios/:id              |             |
+| **POST**    /usuarios/login            |             |
+| **POST**    /usuarios/registrar        |             |
+| **PUT**     /usuarios/                 |             |
+| **DELETE**  /usuarios/                 |             |
+| **GET**     /usuarios/recuperar-senha  |             |
+| **POST**    /usuarios/recuperar-senha  |             |
+| **GET**     /usuarios/senha-recuperada |             |
+| **POST**    /usuarios/senha-recuperada |             |
+
+</br>
+
+> ### **API de Loja** 
 
 | Verb | Route | Response Format | Resource URL | Parameters |
 | ---- | ----- | --------------- | ------------ | ---------- |
@@ -85,7 +86,7 @@ Descrição sobre o que é e sobre o que faz e a importância do Módulo.
 | ---- | ----- | ----------- |
 |      |       |             |
 
-> API de Clientes 
+> ### API de Clientes 
 
 | Verb | Route | Response Format | Resource URL | Parameters |
 | ---- | ----- | --------------- | ------------ | ---------- |
@@ -97,7 +98,7 @@ Descrição sobre o que é e sobre o que faz e a importância do Módulo.
 | ---- | ----- | ----------- |
 |      |       |             |
 
-> API de Categorias 
+> ### API de Categorias 
 
 | Verb | Route | Response Format | Resource URL | Parameters |
 | ---- | ----- | --------------- | ------------ | ---------- |
