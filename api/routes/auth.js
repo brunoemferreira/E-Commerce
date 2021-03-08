@@ -28,4 +28,6 @@ const auth = {
     credentialsRequired: false,
     getToken: getTokenFromHeader
   })
-}
+};
+
+module.exports = auth;
