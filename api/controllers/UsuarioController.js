@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const Usuario = mongoose.model("Usuario");
-//const enviarEmailRecovery = require("../helpers/email-recovery");
+const enviarEmailRecovery = require("../helpers/email-recovery");
 
 const defaultMessages = require("../helpers/defaultMessages.json")
 
@@ -102,7 +102,8 @@ class UsuarioController {
       if (!usuario) return res.render('recovery', { error: defaultMessages["user-email-not-exist"], success: null });
       const recoveryData = usuario.criarTokenRecuperacaoSenha();
       return usuario.save().then(() => {
-        return res.render("recovery", { error: null, success: true });
+        enviarEmailRecovery({ usuario, recovery: recoveryData }, (error = null, success = null));
+        return res.render("recovery", { error, success });
       }).catch(next);
     }).catch(next);
   }
