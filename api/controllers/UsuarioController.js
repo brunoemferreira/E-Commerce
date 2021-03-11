@@ -33,16 +33,24 @@ class UsuarioController {
 
   // POST /registrar
   store(req, res, next) {
-    const { nome, email, password } = req.body;
+    const { nome, email, password, loja } = req.body;
 
-    if (!nome || !email || !password) return res.status(402).json({ errors: defaultMessages["fill-in-all-registration-fields"] });
+    if (!nome || !email || !password || !loja) return res.status(402).json({ errors: defaultMessages["fill-in-all-registration-fields"] });
 
-    const usuario = new Usuario({ nome, email });
+    const usuario = new Usuario({ nome, email, loja });
     usuario.setSenha(password);
 
     usuario.save()
       .then(() => res.json({ usuario: usuario.enviarAuthJSON() }))
-      .catch(next);
+      .catch((err) => {
+        console.log(err);
+        next(err);
+      });
+
+
+    //usuario.save()
+    //  .then(() => res.json({ usuario: usuario.enviarAuthJSON() }))
+    //  .catch(next);
   }
 
   // PUT
