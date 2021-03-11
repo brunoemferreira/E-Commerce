@@ -48,8 +48,8 @@ Descrição sobre o que é e sobre o que faz e a importância do Módulo.
 | ------------------------------------- | --------------- | ----------------------------------------------- | ---------- |
 | **GET**    /usuarios/                 |                 | http://localhost:3000/usuarios/                 | None       |
 | **GET**    /usuarios/:id              |                 | http://localhost:3000/usuarios/:id              | :id        |
-| **POST**   /usuarios/login            |                 | http://localhost:3000/usuarios/login            | None       |
-| **POST**   /usuarios/registrar        |                 | http://localhost:3000/usuarios/registrar        | None       |
+| **POST**   /usuarios/login            | JSON            | http://localhost:3000/v1/api/usuarios/login     | None       |
+| **POST**   /usuarios/registrar        | JSON            | http://localhost:3000/v1/api/usuarios/registrar | None       |
 | **PUT**    /usuarios/                 |                 | http://localhost:3000/usuarios/                 | None       |
 | **DELETE** /usuarios/                 |                 | http://localhost:3000/usuarios/                 | None       |
 | **GET**    /usuarios/recuperar-senha  |                 | http://localhost:3000/usuarios/recuperar-senha  | None       |
