@@ -59,18 +59,18 @@ Descrição sobre o que é e sobre o que faz e a importância do Módulo.
 
 </br>
 
-| Route                                  | Description |
-| -------------------------------------- | ----------- |
-| **GET**     /usuarios/                 |             |
-| **GET**     /usuarios/:id              |             |
-| **POST**    /usuarios/login            |             |
-| **POST**    /usuarios/registrar        |             |
-| **PUT**     /usuarios/                 |             |
-| **DELETE**  /usuarios/                 |             |
-| **GET**     /usuarios/recuperar-senha  |             |
-| **POST**    /usuarios/recuperar-senha  |             |
-| **GET**     /usuarios/senha-recuperada |             |
-| **POST**    /usuarios/senha-recuperada |             |
+| Route                                  | Description                              |
+| -------------------------------------- | ---------------------------------------- |
+| **GET**     /usuarios/                 |                                          |
+| **GET**     /usuarios/:id              |                                          |
+| **POST**    /usuarios/login            | Efetua o login do usuário no E-commerce  |
+| **POST**    /usuarios/registrar        | Registra o usuário no sistema E-Commerce |
+| **PUT**     /usuarios/                 |                                          |
+| **DELETE**  /usuarios/                 |                                          |
+| **GET**     /usuarios/recuperar-senha  |                                          |
+| **POST**    /usuarios/recuperar-senha  |                                          |
+| **GET**     /usuarios/senha-recuperada |                                          |
+| **POST**    /usuarios/senha-recuperada |                                          |
 
 </br>
 
