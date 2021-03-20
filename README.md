@@ -1,9 +1,7 @@
 <div align="center">
    <img  src="./assets/banner.png" alt="Banner"/>
+   <h1>E-Commerce</h1>
 </div>
-
-# E-Commerce
-E-Commerce utilizando ReactJS, NodeJS e Mongo.
 
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/brunoemferreira/E-Commerce?color=%2304D361?style=flat-square">
@@ -11,6 +9,34 @@ E-Commerce utilizando ReactJS, NodeJS e Mongo.
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/brunoemferreira/E-Commerce?style=flat-square">
 </p>
 
+## ⚓ Conteúdo 
+   * [Back-End](#backend)
+     * [Sobre](#sobre-backend)
+     * [Tecnologias e Bibliotecas](#tec-bibli-backend)
+     * [End Points](#endpoint-backend)
+       * [API de Usuário](#api-usuario)
+       * [API de Loja](#api-)
+       * [API de Validações](#api-)
+       * [API de Clientes](#api-)
+       * [API de Categorias](#api-)
+       * [API de Produtos](#api-)
+       * [API de Avaliações](#api-)
+       * [API de Varições](#api-)
+       * [API de Pedidos](#api-)
+       * [API de Integração: Entrega Correios](#api-)
+       * [API de Entrega](#api-)
+       * [API de Integração: PagSeguro](#api-)
+       * [API de Pagamentos](#api-)
+       * [API de ](#api-)
+   
+   * [Front-End ( Dashboard )](#instalacao)
+     * [Sobre](#sobre-backend)
+     * [Tecnologias e Bibliotecas](#tec-bibli-backend)
+   * [Front-End ( Loja Virtual )](#como-usar)
+     * [Sobre](#sobre-backend)
+     * [Tecnologias e Bibliotecas](#tec-bibli-backend)
+
+</br>
 
 # 🚀 Sobre o Projeto 
 
@@ -49,7 +75,7 @@ Descrição sobre o que é e sobre o que faz e a importância do Módulo.
 
 <h2 style="font-weight:bold"> 🔚 End Points da API</h2> 
 
-> ### **API de Clientes**
+> ### **API de Usuários**
 
 | Route                                 | Response Format | Resource URL                                    | Parameters | Tested |
 | ------------------------------------- | --------------- | ----------------------------------------------- | ---------- | ------ |
