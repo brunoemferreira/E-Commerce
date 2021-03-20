@@ -11,7 +11,7 @@ class UsuarioController {
     Usuario.findById(req.payload.id).then(usuario => {
       if (!usuario) return res.status(401).json({ errors: defaultMessages["user-unregistered"] });
       return res.json({ usuario: usuario.enviarAuthJSON() });
-    }).carch(next);
+    }).catch(next);
   }
 
   //GET /:id
