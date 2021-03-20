@@ -17,7 +17,8 @@ class UsuarioController {
   //GET /:id
   show(req, res, next) {
     Usuario.findById(req.params.id)
-      //.populate({ path: "loja" })
+      //@audit --Linha comentada para teste da API descomentar posteriormente para uso
+      //.populate({ path: "loja" })  
       .then(usuario => {
         if (!usuario) return res.status(401).json({ errors: defaultMessages["user-unregistered"] });
         return res.json({
