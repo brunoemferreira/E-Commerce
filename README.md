@@ -44,33 +44,33 @@ Descrição sobre o que é e sobre o que faz e a importância do Módulo.
 
 > ### **API de Clientes**
 
-| Route                                 | Response Format | Resource URL                                    | Parameters | Tested   |
-| ------------------------------------- | --------------- | ----------------------------------------------- | ---------- | -------- |
-| **GET**    /usuarios/                 |                 | http://localhost:3000/usuarios/                 | None       | **Erro** |
-| **GET**    /usuarios/:id              |                 | http://localhost:3000/usuarios/:id              | :id        |          |
-| **POST**   /usuarios/login            | JSON            | http://localhost:3000/v1/api/usuarios/login     | None       | **OK**   |
-| **POST**   /usuarios/registrar        | JSON            | http://localhost:3000/v1/api/usuarios/registrar | None       | **OK**   |
-| **PUT**    /usuarios/                 |                 | http://localhost:3000/usuarios/                 | None       |          |
-| **DELETE** /usuarios/                 |                 | http://localhost:3000/usuarios/                 | None       |          |
-| **GET**    /usuarios/recuperar-senha  |                 | http://localhost:3000/usuarios/recuperar-senha  | None       |          |
-| **POST**   /usuarios/recuperar-senha  |                 | http://localhost:3000/usuarios/recuperar-senha  | None       |          |
-| **GET**    /usuarios/senha-recuperada |                 | http://localhost:3000/usuarios/senha-recuperada | None       |          |
-| **POST**   /usuarios/senha-recuperada |                 | http://localhost:3000/usuarios/senha-recuperada | None       |          |
+| Route                                 | Response Format | Resource URL                                    | Parameters | Tested |
+| ------------------------------------- | --------------- | ----------------------------------------------- | ---------- | ------ |
+| **GET**    /usuarios/                 | JSON            | http://localhost:3000/v1/api/usuarios           | None       | **OK** |
+| **GET**    /usuarios/:id              | JSON            | http://localhost:3000/v1/api/usuarios/:id       | :id        | **OK** |
+| **POST**   /usuarios/login            | JSON            | http://localhost:3000/v1/api/usuarios/login     | None       | **OK** |
+| **POST**   /usuarios/registrar        | JSON            | http://localhost:3000/v1/api/usuarios/registrar | None       | **OK** |
+| **PUT**    /usuarios/                 | JSON            | http://localhost:3000/v1/api/usuarios           | None       | **OK** |
+| **DELETE** /usuarios/                 | JSON            | http://localhost:3000/v1/api/usuarios           | None       | **OK** |
+| **GET**    /usuarios/recuperar-senha  |                 | http://localhost:3000/usuarios/recuperar-senha  | None       |        |
+| **POST**   /usuarios/recuperar-senha  |                 | http://localhost:3000/usuarios/recuperar-senha  | None       |        |
+| **GET**    /usuarios/senha-recuperada |                 | http://localhost:3000/usuarios/senha-recuperada | None       |        |
+| **POST**   /usuarios/senha-recuperada |                 | http://localhost:3000/usuarios/senha-recuperada | None       |        |
 
 </br>
 
-| Route                                  | Description                              |
-| -------------------------------------- | ---------------------------------------- |
-| **GET**     /usuarios/                 |                                          |
-| **GET**     /usuarios/:id              |                                          |
-| **POST**    /usuarios/login            | Efetua o login do usuário no E-commerce  |
-| **POST**    /usuarios/registrar        | Registra o usuário no sistema E-Commerce |
-| **PUT**     /usuarios/                 |                                          |
-| **DELETE**  /usuarios/                 |                                          |
-| **GET**     /usuarios/recuperar-senha  |                                          |
-| **POST**    /usuarios/recuperar-senha  |                                          |
-| **GET**     /usuarios/senha-recuperada |                                          |
-| **POST**    /usuarios/senha-recuperada |                                          |
+| Route                                  | Description                                                            |
+| -------------------------------------- | ---------------------------------------------------------------------- |
+| **GET**     /usuarios/                 | Rota que retorna o usuário quando passado o token do mesmo             |
+| **GET**     /usuarios/:id              | Rota que retorna o usuário informado atraves de token e do id do mesmo |
+| **POST**    /usuarios/login            | Efetua o login do usuário no E-commerce                                |
+| **POST**    /usuarios/registrar        | Registra o usuário no sistema E-Commerce                               |
+| **PUT**     /usuarios/                 | Rota que atualiza os dados do Usuário informado                        |
+| **DELETE**  /usuarios/                 | Rota que efetua a Exclusão do Usuário informado                        |
+| **GET**     /usuarios/recuperar-senha  |                                                                        |
+| **POST**    /usuarios/recuperar-senha  |                                                                        |
+| **GET**     /usuarios/senha-recuperada |                                                                        |
+| **POST**    /usuarios/senha-recuperada |                                                                        |
 
 </br>
 
