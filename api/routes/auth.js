@@ -11,7 +11,7 @@ const secret = require("../config").secret;
 // que é o primeiro parametro então a função abaixo remove esse parametro e envia somente o token para validação
 function getTokenFromHeader(req) {
   if (!req.headers.authorization) return null;
-  const token = req.headers.authorization.split("");
+  const token = req.headers.authorization.split(" ");
   if (token[0] !== "Ecommerce") return null;
   return token[1];
 }
