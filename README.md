@@ -5,6 +5,13 @@
 # E-Commerce
 E-Commerce utilizando ReactJS, NodeJS e Mongo.
 
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/brunoemferreira/E-Commerce?color=%2304D361?style=flat-square">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/brunoemferreira/E-Commerce?style=flat-square">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/brunoemferreira/E-Commerce?style=flat-square">
+</p>
+
+
 # 🚀 Sobre o Projeto 
 
 Projeto de E-Commerce
@@ -17,7 +24,7 @@ Projeto de E-Commerce
 
 Descrição sobre o que é e sobre o que faz e a importância do Módulo. 
 
-### Tecnologias e Bibliotecas Utilizadas
+### 🧰 Tecnologias e Bibliotecas Utilizadas
 * [NodeJs]()
   * [Express](https://www.npmjs.com/package/express)
   * [Express-jwt](https://www.npmjs.com/package/express-jwt)
@@ -185,7 +192,7 @@ Descrição sobre o que é e sobre o que faz e a importância do Módulo.
 
 
 
-### Rodando O Módulo
+### ⚙️ Rodando O Módulo
 ```bash
 # Iniciando o Módulo em Modo Desenvolvimento
 $ npm run dev
@@ -201,11 +208,11 @@ ___
 Descrição sobre o que é e sobre o que faz e a importância do Módulo
 
 
-### Tecnologias e Bibliotecas Utilizadas
+### 🧰 Tecnologias e Bibliotecas Utilizadas
 
 * []()
 
-### Rodando O Módulo
+### ⚙️ Rodando O Módulo
 ```bash
 # Iniciando o Módulo em Modo Desenvolvimento
 $ 
@@ -219,11 +226,11 @@ ___
 ### Sobre o Módulo - Loja Virtual 
 Descrição sobre o que é e sobre o que faz e a importância do Módulo
 
-### Tecnologias e Bibliotecas Utilizadas
+### 🧰 Tecnologias e Bibliotecas Utilizadas
 
 * []()
 
-### Rodando O Módulo
+### ⚙️ Rodando O Módulo
 ```bash
 # Iniciando o Módulo em Modo Desenvolvimento
 $ 
