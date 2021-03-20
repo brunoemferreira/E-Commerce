@@ -1,6 +1,8 @@
 <div align="center">
    <img  src="./assets/banner.png" alt="Banner"/>
    <h1>E-Commerce</h1>
+   <h2>🚧  Em construção  🚧</h2>
+   </br>
 </div>
 
 <p align="center">
