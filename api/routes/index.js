@@ -1,6 +1,6 @@
 const router = require("express").Router();
 
-router.use('/v1/api', require('./api/v1'));
+router.use('/v1/api', require('./api/v1/'));
 router.get('/', (req, res, next) => res.send({ ok: true }));
 
 // Rota de Validação para quando houver algum erro 
@@ -13,6 +13,7 @@ router.use(function (err, req, res, next) {
       }, {})
     });
   }
+  return next(err);
 });
 
 module.exports = router;
