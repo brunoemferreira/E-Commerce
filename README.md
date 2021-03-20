@@ -44,18 +44,18 @@ Descrição sobre o que é e sobre o que faz e a importância do Módulo.
 
 > ### **API de Clientes**
 
-| Route                                 | Response Format | Resource URL                                    | Parameters |
-| ------------------------------------- | --------------- | ----------------------------------------------- | ---------- |
-| **GET**    /usuarios/                 |                 | http://localhost:3000/usuarios/                 | None       |
-| **GET**    /usuarios/:id              |                 | http://localhost:3000/usuarios/:id              | :id        |
-| **POST**   /usuarios/login            | JSON            | http://localhost:3000/v1/api/usuarios/login     | None       |
-| **POST**   /usuarios/registrar        | JSON            | http://localhost:3000/v1/api/usuarios/registrar | None       |
-| **PUT**    /usuarios/                 |                 | http://localhost:3000/usuarios/                 | None       |
-| **DELETE** /usuarios/                 |                 | http://localhost:3000/usuarios/                 | None       |
-| **GET**    /usuarios/recuperar-senha  |                 | http://localhost:3000/usuarios/recuperar-senha  | None       |
-| **POST**   /usuarios/recuperar-senha  |                 | http://localhost:3000/usuarios/recuperar-senha  | None       |
-| **GET**    /usuarios/senha-recuperada |                 | http://localhost:3000/usuarios/senha-recuperada | None       |
-| **POST**   /usuarios/senha-recuperada |                 | http://localhost:3000/usuarios/senha-recuperada | None       |
+| Route                                 | Response Format | Resource URL                                    | Parameters | Tested   |
+| ------------------------------------- | --------------- | ----------------------------------------------- | ---------- | -------- |
+| **GET**    /usuarios/                 |                 | http://localhost:3000/usuarios/                 | None       | **Erro** |
+| **GET**    /usuarios/:id              |                 | http://localhost:3000/usuarios/:id              | :id        |          |
+| **POST**   /usuarios/login            | JSON            | http://localhost:3000/v1/api/usuarios/login     | None       | **OK**   |
+| **POST**   /usuarios/registrar        | JSON            | http://localhost:3000/v1/api/usuarios/registrar | None       | **OK**   |
+| **PUT**    /usuarios/                 |                 | http://localhost:3000/usuarios/                 | None       |          |
+| **DELETE** /usuarios/                 |                 | http://localhost:3000/usuarios/                 | None       |          |
+| **GET**    /usuarios/recuperar-senha  |                 | http://localhost:3000/usuarios/recuperar-senha  | None       |          |
+| **POST**   /usuarios/recuperar-senha  |                 | http://localhost:3000/usuarios/recuperar-senha  | None       |          |
+| **GET**    /usuarios/senha-recuperada |                 | http://localhost:3000/usuarios/senha-recuperada | None       |          |
+| **POST**   /usuarios/senha-recuperada |                 | http://localhost:3000/usuarios/senha-recuperada | None       |          |
 
 </br>
 
