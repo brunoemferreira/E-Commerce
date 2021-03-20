@@ -216,19 +216,42 @@ Descrição sobre o que é e sobre o que faz e a importância do Módulo.
 |      |       |             |
 
 
-
-
 ### ⚙️ Rodando O Módulo
 ```bash
-# Iniciando o Módulo em Modo Desenvolvimento
-$ npm run dev
-  ou 
-$ yarn run dev
-```
+# Clone este repositório para a pasta anterior
+$ git clone https://github.com/brunoemferreira/E-Commerce.git
+# ou use a opção de download.
 
+# Acesse a pasta api
+$ cd api
+
+# Instale as dependências do projeto
+$ yarn install
+ou
+$ npm install
+
+# Executando o Projeto
+$ yarn dev 
+ou
+$ npm dev
+
+# No seu console irá aparecer a seguinte mensagem
+$ Rodando na //localhost:3000 
+```
+```json
+// O projeto irá rodar em http://localhost:3000/
+// Caso tenha o plugin para o chrome ( JSON Viewer ) você deverá ver a seguinte estrutura no browser
+
+// 20210319223049
+// http://localhost:3000/
+
+{
+  "ok": true
+}
+```
 ___
 
-> ## 🌎 Módulo FrontEnd ( DashBoard )
+> ## 📊 Módulo FrontEnd ( DashBoard )
 
 ### Sobre o Módulo - DashBoard 
 Descrição sobre o que é e sobre o que faz e a importância do Módulo
@@ -247,7 +270,7 @@ $
 ```
 ___
 
-> ## 🌎 Módulo FrontEnd ( Loja Virtual )
+> ## 💵 Módulo FrontEnd ( Loja Virtual )
 
 ### Sobre o Módulo - Loja Virtual 
 Descrição sobre o que é e sobre o que faz e a importância do Módulo
