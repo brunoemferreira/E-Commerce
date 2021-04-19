@@ -79,18 +79,20 @@ Descrição sobre o que é e sobre o que faz e a importância do Módulo.
 
 > ### **API de Usuários**
 
-| Route                                 | Response Format | Resource URL                                    | Parameters | Tested |
-| ------------------------------------- | --------------- | ----------------------------------------------- | ---------- | ------ |
-| **GET**    /usuarios/                 | JSON            | http://localhost:3000/v1/api/usuarios           | None       | **OK** |
-| **GET**    /usuarios/:id              | JSON            | http://localhost:3000/v1/api/usuarios/:id       | :id        | **OK** |
-| **POST**   /usuarios/login            | JSON            | http://localhost:3000/v1/api/usuarios/login     | None       | **OK** |
-| **POST**   /usuarios/registrar        | JSON            | http://localhost:3000/v1/api/usuarios/registrar | None       | **OK** |
-| **PUT**    /usuarios/                 | JSON            | http://localhost:3000/v1/api/usuarios           | None       | **OK** |
-| **DELETE** /usuarios/                 | JSON            | http://localhost:3000/v1/api/usuarios           | None       | **OK** |
-| **GET**    /usuarios/recuperar-senha  |                 | http://localhost:3000/usuarios/recuperar-senha  | None       |        |
-| **POST**   /usuarios/recuperar-senha  |                 | http://localhost:3000/usuarios/recuperar-senha  | None       |        |
-| **GET**    /usuarios/senha-recuperada |                 | http://localhost:3000/usuarios/senha-recuperada | None       |        |
-| **POST**   /usuarios/senha-recuperada |                 | http://localhost:3000/usuarios/senha-recuperada | None       |        |
+| Route                                 | Resp. Format | Resource URL                                    | Parameters | Tested |
+| ------------------------------------- | ------------ | ----------------------------------------------- | ---------- | ------ |
+| **GET**    /usuarios/                 | JSON         | http://localhost:3000/v1/api/usuarios           | None       | **OK** |
+| **GET**    /usuarios/:id              | JSON         | http://localhost:3000/v1/api/usuarios/:id       | :id        | **OK** |
+| **POST**   /usuarios/login            | JSON         | http://localhost:3000/v1/api/usuarios/login     | None       | **OK** |
+| **POST**   /usuarios/registrar        | JSON         | http://localhost:3000/v1/api/usuarios/registrar | None       | **OK** |
+| **PUT**    /usuarios/                 | JSON         | http://localhost:3000/v1/api/usuarios           | None       | **OK** |
+| **DELETE** /usuarios/                 | JSON         | http://localhost:3000/v1/api/usuarios           | None       | **OK** |
+| **GET**    /usuarios/recuperar-senha  |              | http://localhost:3000/usuarios/recuperar-senha  | None       |        |
+| **POST**   /usuarios/recuperar-senha  |              | http://localhost:3000/usuarios/recuperar-senha  | None       |        |
+| **GET**    /usuarios/senha-recuperada |              | http://localhost:3000/usuarios/senha-recuperada | None       |        |
+| **POST**   /usuarios/senha-recuperada |              | http://localhost:3000/usuarios/senha-recuperada | None       |        |
+*** **Resp. Format** = Response Format
+
 
 </br>
 
@@ -261,7 +263,14 @@ Descrição sobre o que é e sobre o que faz e a importância do Módulo
 
 ### 🧰 Tecnologias e Bibliotecas Utilizadas
 
-* []()
+* [ReactJs](https://pt-br.reactjs.org)
+  * [Axios](https://www.npmjs.com/package/axios)
+  * [Moment](https://www.npmjs.com/package/moment)
+  * [React Cookie](https://www.npmjs.com/package/redux-thunk)
+  * [Redux](https://www.npmjs.com/package/redux)
+  * [Redux Thunk](https://www.npmjs.com/package/redux-thunk)
+  * [React Redux](https://www.npmjs.com/package/react-redux)
+  * [React Router DOM](https://www.npmjs.com/package/axios)
 
 ### ⚙️ Rodando O Módulo
 ```bash
